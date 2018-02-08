@@ -18,7 +18,7 @@
 
 `y_train.txt`
 
-- Similar data like `X_train`, `X_test`, etc. are merged using the `rbind()` function.
+- Similar data like `X_train`, `X_test`, etc. are merged using the `cbind()` function.
 - Taking only the mean and standard deviation of the entire data set.
 - correct names are then given using the `features.txt` file.
 - `activity_labels.txt` are then substituted in the dataset.
